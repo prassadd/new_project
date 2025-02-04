@@ -1,0 +1,100 @@
+.product-quality{
+    @apply text-center
+}
+.product-quality h1{
+    line-height: 72px;
+    @apply text-[56px] h-[92px]
+}
+.product-quality p{ 
+    line-height: 28.15px!important;
+    @apply text-2xl text-[#7A7777] h-[111px]
+}
+@media screen and (max-width:430px){  
+    .product-section{
+        margin: -70px auto;
+        max-width: 94%;
+        padding: 10px 0;
+    }
+
+    .product-quality{
+        @apply text-center
+    }
+    .product-quality h1{
+        line-height: 40px!important;
+        @apply text-[30px] h-[71px]
+    }
+    .product-quality p{ 
+        margin: 0 auto;
+        margin-top: -20px;
+        line-height: 18.77px!important;
+        @apply text-[16px] h-[111px] w-[312px]
+    }
+}
+
+@media screen and (min-width:431px) and (max-width:580px){  
+    .product-section{
+        margin: -70px auto;
+        padding: 10px 0;
+    }
+
+    .product-quality{
+        @apply text-center
+    }
+    .product-quality h1{
+        line-height: 40px!important;
+        @apply text-[30px] h-[71px]
+    }
+    .product-quality p{ 
+        margin: 0 auto;
+        margin-top: -20px;
+        line-height: 18.77px!important;
+        @apply text-[18px] h-[140px] w-[350px]
+    }
+}
+
+@media screen and (min-width:581px) and (max-width:720px){  
+    .product-section{
+        margin: -70px auto;
+        padding: 10px 0;
+    }
+
+    .product-quality{
+        @apply text-center
+    }
+    .product-quality h1{
+        line-height: 40px!important;
+        @apply text-[30px] h-[71px]
+    }
+    .product-quality p{ 
+        margin: 0 auto;
+        margin-top: -20px;
+        line-height: 25.77px!important;
+        @apply text-[18px] h-[140px] w-[450px]
+    }
+}
+
+@media screen and (min-width:721px) and (max-width:1020px){  
+    .product-section{
+        margin: -70px auto;
+        padding: 10px 0;
+    }
+
+    .product-quality{
+        @apply text-center
+    }
+    .product-quality h1{
+        line-height: 50px!important;
+        @apply text-4xl h-14
+    }
+    .product-quality p{ 
+        margin: 0 auto;
+        line-height: 30px!important;
+        @apply text-xl h-[160px] w-[550px]
+    }
+}
+@media screen and (min-width:1021px) and (max-width:1120px){  
+    .product-section{
+        margin: -50px auto;
+        padding: 10px 0;
+    }
+}

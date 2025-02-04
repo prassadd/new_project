@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --carousal-font-color:#EEF4F9;
+}
+*{
+    @apply font-roboto;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@media screen and (max-width:430px){ 
+  #root{
+    width: 100%;
+    max-width: 430px;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width:431px) and (max-width:580px){ 
+  #root{
+    width: 100%;
+    max-width: 580px;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width:581px) and (max-width:720px){ 
+  #root{
+    width: 100%;
+    max-width: 720px;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width:721px) and (max-width:1020px){ 
+  #root{
+    width: 100%;
+    max-width: 1020px;
+    overflow-x: hidden;
+  }
+}
+@media screen and (min-width:1021px) and (max-width:1120px){ 
+  #root{
+    width: 100%;
+    max-width: 1120px;
+    overflow-x: hidden;
+  }
+}

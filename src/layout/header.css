@@ -1,0 +1,110 @@
+.nav-links{
+  @apply flex gap-5
+}
+.nav-bar{
+  @apply left-[39px] relative
+}
+.close-menu{
+  @apply hidden
+}
+.ham-menu{
+  @apply hidden
+}
+.contact-us{
+  @apply w-[148px] h-9 left-[1219px] border flex items-center gap-2 justify-center mr-10 bg-[#FFFCFA]
+}
+nav ul li{
+  @apply cursor-pointer
+}
+@media screen and (max-width:430px){
+  .header-div{
+    @apply w-full top-0 h-14
+  }  
+  .contact-us{
+    @apply absolute left-4 h-9 w-32
+  }
+  .ham-menu{
+    @apply bg-[#F9F4EE] h-9 w-9 flex items-center justify-center mr-3 cursor-pointer right-[0] absolute
+  }
+  .nav-bar-sm{
+    @apply absolute top-0 text-center z-[10] bg-[#F9F4EE] w-full left-0 py-3
+  }
+  .nav-links{
+    display: none;
+  }
+  .nav-links-sm{
+    @apply grid justify-center gap-2
+  }
+  .close-menu{
+    @apply block absolute top-3 right-2
+  }
+
+}
+
+@media screen and (min-width:431px) and (max-width:580px){
+  .header-div{
+    @apply w-full top-0 h-16
+  }  
+  .contact-us{
+    @apply absolute left-4 h-9 w-32
+  }
+  .ham-menu{
+    @apply bg-[#F9F4EE] h-9 w-9 flex items-center justify-center mr-3 cursor-pointer right-[0] absolute
+  }
+  .nav-bar-sm{
+    @apply absolute top-0 text-center z-[10] bg-[#F9F4EE] w-full left-0 py-3 
+  }
+  .nav-links{
+    display: none;
+  }
+  .nav-links-sm{
+    @apply grid justify-center gap-2
+  }
+  .close-menu{
+    @apply block absolute top-3 right-2
+  }
+
+}
+@media screen and (min-width:581px) and (max-width:720px){
+  .header-div{
+    @apply w-full top-0 h-20
+  }  
+  .contact-us{
+    @apply absolute left-4 h-10 w-32
+  }
+  .ham-menu{
+    @apply bg-[#F9F4EE] h-10 w-10 flex items-center justify-center mr-3 cursor-pointer right-[0] absolute
+  }
+  .nav-bar-sm{
+    @apply absolute top-0 text-center z-[10] bg-[#F9F4EE] w-full left-0 py-3 
+  }
+  .nav-links{
+    display: none;
+  }
+  .nav-links-sm{
+    @apply grid justify-center gap-3
+  }
+  .close-menu{
+    @apply block absolute top-3 right-2
+  }
+
+}
+@media screen and (min-width:721px) and (max-width:1020px){
+  .header-div{
+    @apply w-full top-0 h-20
+  }  
+  .contact-us{
+    @apply mr-5
+  }
+  .nav-bar{
+    @apply left-5 
+  }
+}
+@media screen and (min-width:1021px) and (max-width:1120px){ 
+  .contact-us{
+    @apply mr-5
+  }
+  .nav-bar{
+    @apply left-5 
+  }
+}
